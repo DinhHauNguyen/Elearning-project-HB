@@ -18,7 +18,7 @@ import swal from "sweetalert";
 export const layDanhSachNguoiDungAction = () => {
   return async (dispatch) => {
     let { data } = await axios(
-      DOMAIN + "api/QuanLyNguoiDung/LayDanhSachNguoiDung?MaNhom=GP12"
+      DOMAIN + "api/QuanLyNguoiDung/LayDanhSachNguoiDung?MaNhom=GP05"
     );
     dispatch({
       type: LAY_DANH_SACH_NGUOI_DUNG,
@@ -120,7 +120,7 @@ export const searchUserAction = (keyWord, setDone) => {
       axios({
         url:
           DOMAIN +
-          `api/QuanLyNguoiDung/TimKiemNguoiDung?MaNhom=GP12&tuKhoa=${keyWord}`,
+          `api/QuanLyNguoiDung/TimKiemNguoiDung?MaNhom=GP05&tuKhoa=${keyWord}`,
         method: "get",
       })
         .then((res) => {
