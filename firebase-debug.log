@@ -1,0 +1,39 @@
+[debug] [2021-10-28T12:54:40.087Z] ----------------------------------------------------------------------
+[debug] [2021-10-28T12:54:40.089Z] Command:       /usr/local/bin/firebase /Users/dinhhau/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2021-10-28T12:54:40.089Z] CLI Version:   9.20.0
+[debug] [2021-10-28T12:54:40.090Z] Platform:      darwin
+[debug] [2021-10-28T12:54:40.090Z] Node Version:  v12.18.1
+[debug] [2021-10-28T12:54:40.094Z] Time:          Thu Oct 28 2021 19:54:40 GMT+0700 (Indochina Time)
+[debug] [2021-10-28T12:54:40.095Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-28T12:54:40.137Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-28T12:54:40.138Z] > authorizing via signed-in user (dinhhaudrm@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/dinhhau/Documents/REACT/elearning-project/elearning
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2021-10-28T12:54:51.811Z] Error: write EIO
+    at afterWriteDispatched (internal/stream_base_commons.js:154:25)
+    at writeGeneric (internal/stream_base_commons.js:145:3)
+    at WriteStream.Socket._writeGeneric (net.js:786:11)
+    at WriteStream.Socket._write (net.js:798:8)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at WriteStream.Writable.write (_stream_writable.js:318:11)
+    at EventEmitter.signalExit.alwaysLast (/Users/dinhhau/.cache/firebase/tools/lib/node_modules/restore-cursor/index.js:7:18)
+    at EventEmitter.emit (events.js:315:20)
+    at EventEmitter.emit (domain.js:482:12)
+    at emit (/Users/dinhhau/.cache/firebase/tools/lib/node_modules/signal-exit/index.js:87:13)
+    at process.listener (/Users/dinhhau/.cache/firebase/tools/lib/node_modules/signal-exit/index.js:106:9)
+    at process.emit (events.js:315:20)

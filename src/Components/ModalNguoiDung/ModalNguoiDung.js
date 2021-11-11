@@ -200,7 +200,7 @@ const FormikForm = withFormik({
             matKhau: "",
             hoTen: "",
             soDT: "",
-            maNhom: "GP12",
+            maNhom: "GP05",
             email: "",
             maLoaiNguoiDung: "",
         };
